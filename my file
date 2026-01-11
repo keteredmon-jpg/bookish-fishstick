@@ -1,0 +1,195 @@
+Creating a basic structure for a medical awareness website about cancer, titled "OncoAwareness," involves HTML, CSS, and optionally JavaScript for interactivity. Below is a sample code to get you started with the core pages and layout:
+
+### Directory Structure
+You can create a directory for your project like this:
+```
+OncoAwareness/
+│
+├── index.html
+├── styles.css
+└── js/
+    └── script.js (optional)
+```
+
+### index.html
+This will be the main homepage and navigation for the site.
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OncoAwareness - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>OncoAwareness</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="what-is-cancer.html">What is Cancer</a></li>
+                <li><a href="early-awareness.html">Early Awareness Matters</a></li>
+                <li><a href="common-cancers.html">Common Cancers</a></li>
+                <li><a href="risk-factors.html">Risk Factors & Warning Signs</a></li>
+                <li><a href="prevention.html">Prevention & Screening</a></li>
+                <li><a href="disclaimer.html">Disclaimer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Welcome to OncoAwareness</h2>
+            <p>Your trusted source for cancer awareness and education.</p>
+            <img src="https://via.placeholder.com/600x300" alt="Cancer Awareness">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 OncoAwareness. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+```
+
+### what-is-cancer.html
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is Cancer - OncoAwareness</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>OncoAwareness</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="what-is-cancer.html">What is Cancer</a></li>
+                <li><a href="early-awareness.html">Early Awareness Matters</a></li>
+                <li><a href="common-cancers.html">Common Cancers</a></li>
+                <li><a href="risk-factors.html">Risk Factors & Warning Signs</a></li>
+                <li><a href="prevention.html">Prevention & Screening</a></li>
+                <li><a href="disclaimer.html">Disclaimer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>What is Cancer?</h2>
+            <p>Cancer is a group of diseases characterized by the uncontrolled growth and spread of abnormal cells. If the spread is not controlled, it can lead to death.</p>
+            <img src="https://via.placeholder.com/600x300" alt="What is Cancer">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 OncoAwareness. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+```
+
+### early-awareness.html 
+(Repeat the similar structure for the remaining pages, changing the content accordingly)
+
+### styles.css
+This will contain the CSS for styles.
+```css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #0056b3;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background: white;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #0056b3;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+```
+
+### Disclaimer Page (disclaimer.html)
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disclaimer - OncoAwareness</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>OncoAwareness</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="what-is-cancer.html">What is Cancer</a></li>
+                <li><a href="early-awareness.html">Early Awareness Matters</a></li>
+                <li><a href="common-cancers.html">Common Cancers</a></li>
+                <li><a href="risk-factors.html">Risk Factors & Warning Signs</a></li>
+                <li><a href="prevention.html">Prevention & Screening</a></li>
+                <li><a href="disclaimer.html">Disclaimer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Disclaimer</h2>
+            <p>The information provided on this site is for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 OncoAwareness. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+```
+
+### Notes:
+1. You can customize the content of each page according to the topics specified.
+2. Ensure to replace placeholder images with appropriate images related to cancer awareness.
+3. You can also use frameworks like Bootstrap for a more responsive design.
+4. Consider implementing JavaScript for dynamic content or interactions if necessary.
+
+Feel free to expand this template by adding more content or styles as needed!
